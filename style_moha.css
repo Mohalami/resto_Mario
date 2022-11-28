@@ -24,6 +24,7 @@ h1 {
     font-family: 'Rubik Marker Hatch', cursive;
     text-align: center;
     color: #008A1E;
+    opacity: 0.50;
     font-size: 6rem;
 }
 
@@ -88,12 +89,14 @@ h2 {
     font-family: 'Rubik Marker Hatch', cursive;
     color: #008A1E;
     font-size: 4rem;
+    opacity: 0.50;
 }
 
 h3 {
     font-family: 'Merienda', cursive;
     color: #008A1E;
     font-size: 2rem;
+    opacity: 0.50;
 }
 
 .toute_pizza {
