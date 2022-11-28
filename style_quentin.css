@@ -35,6 +35,7 @@ main>.History{
     display: flex;
     background-color: #F54949;
     color: white;
+    padding-top: 10px;
     padding-left: 10px;
     padding-right: 10px;
     justify-content: center;
