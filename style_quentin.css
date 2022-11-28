@@ -1,0 +1,30 @@
+body,html{
+    margin: 0;
+}
+
+main>.Title{
+    display: flex;
+    justify-content: center;
+    background-color:#F54949;
+    color: white;
+    font-family: 'Rubik Marker Hatch',cursive;
+}
+
+main>.Presentation{
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    background-color:#F54949;
+    color: white;
+    font-family: 'Rubik Marker Hatch',cursive;
+}
+
+main>.History{
+    display: flex;
+    background-color: #F54949;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    justify-content: center;
+    text-align: justify;
+}
