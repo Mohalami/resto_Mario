@@ -2,15 +2,6 @@ body,html{
     margin: 0;
 }
 
-main>.Title{
-    display: flex;
-    justify-content: center;
-    text-align: justify;
-    background-color:#F54949;
-    color: white;
-    font-family: 'Rubik Marker Hatch',cursive;
-}
-
 main>.Presentation{
     display: flex;
     justify-content: center;
@@ -23,8 +14,9 @@ main>.Presentation{
 }
 
 main>.Photos{
-    display: flex;
+    display:flex;
     flex-direction: row;
+    background-color: #F54949;
 }
 
 main>.img{
@@ -45,4 +37,16 @@ main>.History{
     justify-content: center;
     text-align: justify;
     font-family: 'Rubik Marker Hatch',cursive;
+}
+
+@media screen and (min-width: 0px) and (max-width: 600px){
+    div.Photos{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 1920px){
+    div.img{
+        display: none;
+    }
 }
