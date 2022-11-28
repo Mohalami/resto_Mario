@@ -2,6 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Merienda&display=swap');
 
+
+
+
 * {
     margin: 0;
     padding: 0;
@@ -154,5 +157,12 @@ img {
 
     .taille {
         align-self: flex-end;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .selects {
+        display: flex;
+        flex-direction: column;
     }
 }
