@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html,body {
+    height: 100%;
+}
+header {
+    display: flex;
+    flex-direction: column;
+    background-color: #FAF3F3;
+    height: 15%;
+    font-family: 'Rubik Marker Hatch'cursive;
+}
+.logo{
+    height: 70px;
+    width: 70px;
+}
+.haut {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #FAF3F3;
+    align-items: center;
+    color: #D62B2B;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-size: 30px;
+}
+.menusite {
+    display: flex;
+    flex-direction: row;
+    background-color: #FAF3F3;
+    color: #FAF3F3;
+    justify-content: space-around;
+}
+.styled {
+    border: 0;
+    line-height: 2.5;
+    padding: 0px 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: #1ECC45;
+    background-image: linear-gradient(to top left,
+                                      rgba(0, 0, 0, .2),
+                                      rgba(0, 0, 0, .2) 30%,
+                                      rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+.styled:active {
+    box-shadow: inset -2px -2px 3px ,
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+.styled:active {
+    box-shadow: inset -2px -2px 3px ,
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+
+@media screen and (min-width : 768px)  {
+
+    header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .menusite {
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-end;
+        width: 30%;
+    }
+    .logo {
+        height: 120px;
+        width: 120px;
+    }
+    .haut {
+        display: flex;
+        width: 70%;
+        font-size: 60px;
+    }
+
+}
