@@ -1,6 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Marker+Hatch&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merienda&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body,
 html {
     margin: 0%;
     padding: 0%;
+    overflow-x: hidden;
+}
 
+main {
+    height: 40%;
+    background-color: #D9C4C4;
+    width: 100%;
+}
+
+h1 {
+    font-family: 'Rubik Marker Hatch', cursive;
+    text-align: center;
+    color: #008A1E;
+    font-size: 6rem;
+}
+
+.moha_conteneur {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+.les_pizzas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.selects {
+    display: flex;
+    gap: 1rem;
+    width: 100%;
+    justify-content: center;
+}
+
+.les_selects {
+    border: solid 2px black;
+    border-radius: 0.45rem;
+    padding: 0.5rem 1.5rem;
+    /* min-width: 30%; */
+    text-align: center;
+    background-color: #7AEB93;
+    text-transform: capitalize;
+    font-weight: bold;
+
+}
+
+.tpza {
+    color: #F54949;
+    font-size: 4rem;
+    font-family: 'Great Vibes', cursive;
+    text-align: center;
+}
+
+.entete {
+    display: flex;
+    flex-direction: row;
+    justify-content: center
+}
+
+.taille {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 2rem;
+    font-size: 2rem;
+    font-family: 'Great Vibes', cursive;
+    padding: 1rem;
+    padding-right: 0;
+}
+
+h2 {
+    font-family: 'Rubik Marker Hatch', cursive;
+    color: #008A1E;
+    font-size: 4rem;
+}
+
+h3 {
+    font-family: 'Merienda', cursive;
+    color: #008A1E;
+    font-size: 2rem;
+}
+
+.toute_pizza {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+.classique {
+    width: 80%;
+}
+
+.p_menu {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 50%;
+}
+
+.p_menu-head {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.entete {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.price {
+    display: flex;
+    gap: 6rem;
+}
+
+img {
+    display: flex;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    ;
+}
+
+.classic_content {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 900px) {
+    .entete {
+        flex-direction: column;
+    }
+
+    .taille {
+        align-self: flex-end;
+    }
 }
