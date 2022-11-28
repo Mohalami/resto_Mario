@@ -6,7 +6,7 @@ html{
 
 }
 header{
-    height: 10%;
+    height: 15%;
 }
 
 main{
@@ -43,7 +43,7 @@ iframe{
 
 
 
-.foot1{
+.info{
    display: flex;
    flex-direction: column;
    text-align: center;
@@ -51,7 +51,7 @@ iframe{
 }
 
 @media screen and (min-width:768px){
-    .foot1{
+    .info{
         display:flex;
         margin-left: 1%;
         flex-direction: column;
@@ -89,9 +89,10 @@ iframe{
     display: flex;
     flex-direction: column;
     text-align: center;
-    margin-top: 0.5em;
+   
 
 }
+
 
 @media screen and (min-width:768px){
     .horaire{
@@ -111,6 +112,7 @@ flex-direction: column;
 align-items: center;
 background-color:#240F0F;
 color: #f7f7f7;
+padding: -0.5em;
 
 
 
