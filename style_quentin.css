@@ -22,6 +22,11 @@ main>.Presentation{
     font-family: 'Rubik Marker Hatch',cursive;
 }
 
+main>.Photos{
+    display: flex;
+    flex-direction: row;
+}
+
 main>.img{
     display: flex;
     padding-left: 10px;
