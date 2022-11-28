@@ -11,15 +11,6 @@ main>.Title{
     font-family: 'Rubik Marker Hatch',cursive;
 }
 
-main>.img{
-    display: flex;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-bottom: 10px;
-    background-color: #F54949;
-
-}
-
 main>.Presentation{
     display: flex;
     justify-content: center;
@@ -29,6 +20,15 @@ main>.Presentation{
     background-color:#F54949;
     color: white;
     font-family: 'Rubik Marker Hatch',cursive;
+}
+
+main>.img{
+    display: flex;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    background-color: #F54949;
+
 }
 
 main>.History{
