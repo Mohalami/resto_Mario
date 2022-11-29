@@ -33,6 +33,7 @@ header {
     background-color: #FAF3F3;
     color: #FAF3F3;
     justify-content: space-around;
+    padding-bottom: 5px;
 }
 .styled {
     border: 0;
@@ -72,6 +73,7 @@ header {
         justify-content: space-around;
         align-items: flex-end;
         width: 30%;
+        padding-bottom: 5px;
     }
     .logo {
         height: 120px;
