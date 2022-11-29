@@ -107,10 +107,13 @@ h3 {
     flex-direction: column;
     width: 100%;
     align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
 }
 
 .classique {
     width: 80%;
+    border-radius: dashed 2px blue;
 }
 
 .p_menu {
@@ -148,6 +151,8 @@ img {
 .classic_content {
     display: flex;
     justify-content: space-between;
+    border-bottom: dashed 2px rgb(19, 19, 56);
+
 }
 
 @media screen and (max-width: 900px) {
@@ -160,9 +165,63 @@ img {
     }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 400px) {
     .selects {
         display: flex;
         flex-direction: column;
     }
+
+
+    .classic_content,
+    .p_menu,
+    .p_menu-head {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .taille {
+        align-self: center;
+
+    }
+
+    .entete h2 {
+        font-size: 1.5rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+.box {
+    --border-size: 3px;
+    --border-angle: 0turn;
+    border-radius: .45rem;
+    padding: 1rem;
+    background-image: conic-gradient(from var(--border-angle), #213, #112 50%, #213), conic-gradient(from var(--border-angle), transparent 20%, #08f, #f03);
+    background-size: calc(100% - (var(--border-size) * 2)) calc(100% - (var(--border-size) * 2)), cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    animation: bg-spin 3s linear infinite;
+}
+
+@keyframes bg-spin {
+    to {
+        --border-angle: 1turn;
+    }
+}
+
+.box:hover {
+    animation-play-state: paused;
+}
+
+@property --border-angle {
+    syntax: "<angle>";
+    inherits: true;
+    initial-value: 0turn;
 }
